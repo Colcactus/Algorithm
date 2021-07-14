@@ -110,7 +110,7 @@
 - 图算法
 
 ## 注意事项
-- 解决方案使用CC-NC-ND 4.0协议，代码使用MIT协议
+- 解决方案使用CC-NC-ND 4.0([English](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.en))([简体中文](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.zh))协议，代码使用[MIT](https://github.com/Colcactus/Algorithm/blob/main/LICENSE)协议
 
 ## 发布平台
 - 官网
