@@ -1,3 +1,9 @@
+# 算法攻略   
+由Colcactus编撰及整理的野生算法百科，不定期更新  
+欢迎来[B站](https://space.bilibili.com/473292188)支持我们哟！
+
+## 列表
+
 - 随机数算法 (算法导论)
 - 秦九韶算法/霍纳规则 (算法导论)
 - 索引
@@ -103,37 +109,10 @@
                 - 极小化极大算法
 - 图算法
 
-项目目录
-- base
-    - 算法名称
-        - Java
-        - Julia
-        - Python
-
-    Solution.md
-
-- LeetCode
-    - 算法名称
-        - Official
-            - Java
-            - Julia
-            - Python
-        - Solution
-            - Java
-            - Julia
-            - Python
-
-    Solution.md
-    
-README.md
-
-LICENCE
-
-注意事项
-- 使用Julia、Java和Python实现
+## 注意事项
 - 解决方案使用CC-NC-ND 4.0协议，代码使用MIT协议
 
-发布平台
+## 发布平台
 - 官网
 - BiliBili
 - 知乎
