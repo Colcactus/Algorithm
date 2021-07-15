@@ -1,21 +1,12 @@
 # 算法攻略   
 由Colcactus编撰及整理的野生算法百科，不定期更新  
-欢迎来[B站](https://space.bilibili.com/473292188)支持我们哟！
+欢迎来[我们的B站个人空间](https://space.bilibili.com/473292188)支持我们哟！
 
 ## 列表
 
 - 随机数算法 (算法导论)
 - 秦九韶算法/霍纳规则 (算法导论)
-- 索引
-    - 顺序查找
-    - 二分查找
-    - 插值查找
-    - 斐波那契查找
-    - 哈希查找
-    - 二叉树查找
-    - 2-3树
-    - 红黑树 (算法导论)
-    - B+树 (算法基础)
+- 数据结构
 - 排序
     - 冒泡排序
     - 选择排序
@@ -27,7 +18,17 @@
     - 计数排序 (算法导论)
     - 桶排序 (算法导论)
     - 基数排序 (算法导论)
-- 数据结构
+- 索引
+    - 顺序查找
+    - 二分查找
+    - 插值查找
+    - 斐波那契查找
+    - 哈希查找
+    - 二叉树查找
+    - 2-3树
+    - 红黑树 (算法导论)
+    - B+树 (算法基础)
+- 
     - 链表
         - 单链表
             - 遍历
@@ -113,7 +114,7 @@
 - 解决方案使用CC-NC-ND 4.0([English](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.en))([简体中文](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.zh))协议，代码使用[MIT](https://github.com/Colcactus/Algorithm/blob/main/LICENSE)协议
 
 ## 发布平台
-- 官网
-- BiliBili
+- [官网](http://Colcactus.ml)
+- [BiliBili](https://space.bilibili.com/473292188)
 - 知乎
 - CSDN
