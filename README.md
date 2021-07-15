@@ -111,6 +111,8 @@
 
 ## 注意事项
 - 解决方案使用CC-NC-ND 4.0([English](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.en))([简体中文](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.zh))协议，代码使用[MIT](https://github.com/Colcactus/Algorithm/blob/main/LICENSE)协议
+- 任何侵权行为皆依照协议中的法律性文本处理
+- 在平台上发布的作品皆通过平台协议 + CC-ND-NC 4.0协议执行，并通过平台官方维权手段维权，若内容已在多平台发布，那么将会使用所有已发布平台的维权手段维权
 
 ## 发布平台
 - [官网](http://Colcactus.ml)
