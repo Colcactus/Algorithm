@@ -7,7 +7,7 @@
 - 随机数算法 (算法导论)
 - 秦九韶算法/霍纳规则 (算法导论)
 - 排序
-    - 冒泡排序
+    - [冒泡排序](https://github.com/Colcactus/Algorithm/tree/main/base/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F)
     - 选择排序
     - 插入排序
     - 归并排序
