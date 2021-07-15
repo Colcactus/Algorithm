@@ -108,6 +108,14 @@
             - 决策树
                 - 极小化极大算法
 - 图算法
+    - 深度优先
+    - 广度优先
+    - 拓扑排序 (算法导论)
+    - 连通性测试
+    - 最小生成树
+        - Kruskal算法
+        - Prim算法
+    - 单源最短路径
 
 ## 注意事项
 - 解决方案使用CC-NC-ND 4.0([English](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.en))([简体中文](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.zh))协议，代码使用[MIT](https://github.com/Colcactus/Algorithm/blob/main/LICENSE)协议
