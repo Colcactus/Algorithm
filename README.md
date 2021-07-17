@@ -8,7 +8,7 @@
 - 秦九韶算法/霍纳规则 (算法导论)
 - 排序
     - [冒泡排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/bubble_sort)
-    - 选择排序
+    - [选择排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/selection_sort)
     - 插入排序
     - 归并排序
     - 快速排序 (算法导论)
