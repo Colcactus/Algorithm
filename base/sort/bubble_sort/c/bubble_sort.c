@@ -16,8 +16,7 @@
 */
 #include <stdio.h>
 void main(){
-	int lenth,i,temp;
-	int n;
+	int lenth,i,temp,n;
 	scanf("%d",&lenth);
 	int a[lenth];
 	for(i=0;i<lenth;i++){
