@@ -14,13 +14,12 @@ array=input()
 array=list(map(int,array.split(" ")))
 n=1
 lenth=len(array)
-while(lenth>n-1):
+for n in range(1,lenth,1):
     for i in range(0,lenth-n,1):
         if(array[i]<array[i+1]):#<号是从大到小，>号从小到大 
             temp=array[i]
             array[i]=array[i+1]
             array[i+1]=temp
 
-    n+=1
 for i in array:
     print(i,end=" ")
