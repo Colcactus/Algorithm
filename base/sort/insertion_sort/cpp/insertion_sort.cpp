@@ -14,26 +14,24 @@
 
 数据不超过int范围
 */
-#include<stdio.h>
-void main(){
-	int lenth,i,j,temp,max;
+#include<cstdio>
+using namespace std;
+int main(){
+    int lenth,i,j,temp;
 	scanf("%d",&lenth);
 	int a[lenth+1];
 	for(i=0;i<lenth;i++){
 		scanf("%d",&a[i]);
 	}
-	for(i=0;i<lenth-1;i++){
-		max=i;
-		for(j=i+1;j<lenth;j++){
-			if(a[j]>a[max]){
-				max=j;
-			}
-		}
-		temp=a[i];
-		a[i]=a[max];
-		a[max]=temp;
-	}
+    for(i=1;i<lenth;i++){
+        temp=a[i];
+        for(j=i-1;(a[j]<temp)&&(j>=0);j--){
+            a[j+1]=a[j];
+        }
+        a[j+1]=temp;
+    }
 	for(i=0;i<lenth;i++){
-		printf("%d ",a[i]);
+        printf("%d ",a[i]);
 	}
+	return 0;
 }
