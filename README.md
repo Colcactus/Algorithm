@@ -4,7 +4,7 @@
 
 ## 列表
 
-- 随机数算法 (算法导论)
+- [随机数算法 (算法导论)](https://github.com/Colcactus/Algorithm/tree/main/base/redom_number)
 - 秦九韶算法/霍纳规则 (算法导论)
 - 排序
     - [冒泡排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/bubble_sort)
