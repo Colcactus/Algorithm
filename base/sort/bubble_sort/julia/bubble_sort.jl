@@ -14,9 +14,17 @@
 - 不使用三目运算符，因为每次操作几乎没有规律，使用三目运算符将会加大开销
 - 检测是否发生交换，若没有交换，则提前跳出外循环
 
+结果:
+> 注:@time已运行过一次
+
+julia> @time bubble_sort(arr, length)
+raw:[1, 2, 4, 6, 7]
+sorted:[1, 2, 4, 6, 7]
+  0.000497 seconds (42 allocations: 1.625 KiB)
 """
 
-function bubble_sort (array::AbstractArray, length::Int64)
+function bubble_sort(array::AbstractArray, length::Int64)
+    println("raw:$array")
     for i = 1:length
     flag = false
 
@@ -33,4 +41,6 @@ function bubble_sort (array::AbstractArray, length::Int64)
     end
 
     end
+
+    println("sorted:$array")
 end
