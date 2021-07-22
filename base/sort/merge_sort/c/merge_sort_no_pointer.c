@@ -36,17 +36,21 @@ SOFTWARE.
 
 数据不超过int范围
 
-由于变量作用域的缘故，我稍微用了点指针，无指针的可以看merge_sort_no_pointer.c
+这是无指针版，原版可以看merge_sort.c
 */
 #include<stdio.h>
-int merge_sort(int left,int right,int *p){
+int lenth=5;
+//长度，相当于第一行输入
+int a[7]={1,3,2,5,4};
+//待排序数组，相当于第二行输入
+int merge_sort(int left,int right){
 	int i;
 	int mid=(right+left)/2;
 	if((right-left)<=1){
 		return;
 	}
-	merge_sort(left,mid,p);
-	merge_sort(mid,right,p);
+	merge_sort(left,mid);
+	merge_sort(mid,right);
 	int b[right-left],left_p,right_p;
 	left_p=left;
 	right_p=mid;
@@ -55,40 +59,35 @@ int merge_sort(int left,int right,int *p){
 			break;	
 		}
 		if(left_p==mid){
-			b[i]=*(p+right_p);
+			b[i]=a[right_p];
 			right_p++;	
 			continue;
 		}
 		if(right_p==right){
-			b[i]=*(p+left_p);
+			b[i]=a[left_p];
 			left_p++;
 			continue;	
 		}
-		if(*(left_p+p)>*(right_p+p)){
-			b[i]=*(p+left_p);
+		if(a[left_p]>a[right_p]){
+			b[i]=a[left_p];
 			left_p++;
 			continue;
 		}
-		if(*(left_p+p)<=*(right_p+p)){
-			b[i]=*(p+right_p);
+		if(a[left_p]<=a[right_p]){
+			b[i]=a[right_p];
 			right_p++;
 			continue;
 		}
 	}
 	for(i=0;i<(right-left);i++){
-		*(left+i+p)=b[i];
+		a[left+i]=b[i];
 	}
 	return;
 }
 void main(){
-	int i,lenth;
-	scanf("%d",&lenth);
-	int a[lenth];
+	merge_sort(0,lenth);
+	int i;
 	for(i=0;i<lenth;i++){
-		scanf("%d",&a[i]);
-	}
-	merge_sort(0,lenth,&a[0]);
-	for(i=0;i<lenth;i++){
-		printf("%d ",a[i]);
+		printf("%d",a[i]);
 	}		
 }
