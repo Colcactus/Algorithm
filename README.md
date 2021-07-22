@@ -107,6 +107,7 @@
                 - 红黑树
             - 决策树
                 - 极小化极大算法
+
 - 图算法
     - 深度优先
     - 广度优先
@@ -116,6 +117,28 @@
         - Kruskal算法
         - Prim算法
     - 单源最短路径
+        - Bellman-Ford算法
+        - 有向无回路图中的单源最短路径
+        - Dijkstra算法
+        - 差分约束与最短路径
+    - 每对顶点间的最短路径
+        - 最短路径与矩阵乘法
+        - Floyd-Warshall算法
+        - 稀疏图上的Johnson算法
+    - 最大流
+        - Ford-Fulkerson算法
+        - 最大二分匹配
+        - 压入与重标记算法
+        - 重标记与前移算法
+- 并行计算模型(比较网络)
+- 矩阵操作
+- 线性规划
+- 多项式与快速傅立叶变换
+- 数论相关
+- 字符串匹配
+- 计算几何学
+- NP完全性
+- 近似算法
 
 ## 注意事项
 - 解决方案使用CC-NC-ND 4.0([English](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.en))([简体中文](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.zh))协议，代码使用[MIT](https://github.com/Colcactus/Algorithm/blob/main/LICENSE)协议
