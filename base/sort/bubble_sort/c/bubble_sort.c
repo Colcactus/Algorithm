@@ -46,7 +46,7 @@ void main(){
 	} 
 	for(n=1;lenth>n-1;n++){
 		for(i=0;i<lenth-n;i++){
-			//<号是从大到小，>号从小到大 
+//               ^  <号是从大到小，>号从小到大 
 			if(a[i]<a[i+1]){
 				temp=a[i];
 				a[i]=a[i+1];
