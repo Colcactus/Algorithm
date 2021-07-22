@@ -10,7 +10,7 @@
     - [冒泡排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/bubble_sort)
     - [选择排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/selection_sort)
     - [插入排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/insertion_sort)
-    - 归并排序
+    - [归并排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/merge_sort)
     - 快速排序 (算法导论)
     - 堆排序 (算法导论)
     - 希尔排序
