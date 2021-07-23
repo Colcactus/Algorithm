@@ -43,7 +43,7 @@ int lenth=5;
 //长度，相当于第一行输入
 int a[7]={1,3,2,5,4};
 //待排序数组，相当于第二行输入
-int merge_sort(int left,int right){
+void merge_sort(int left,int right){
 	int i;
 	int mid=(right+left)/2;
 	if((right-left)<=1){
@@ -55,18 +55,15 @@ int merge_sort(int left,int right){
 	left_p=left;
 	right_p=mid;
 	for(i=0;i<(right-left);i++){
-		if((left_p==mid)&&(right_p==right)){
-			break;	
-		}
 		if(left_p==mid){
 			b[i]=a[right_p];
-			right_p++;	
+			right_p++;
 			continue;
 		}
 		if(right_p==right){
 			b[i]=a[left_p];
 			left_p++;
-			continue;	
+			continue;
 		}
 		if(a[left_p]>a[right_p]){
 			b[i]=a[left_p];
@@ -88,6 +85,6 @@ void main(){
 	merge_sort(0,lenth);
 	int i;
 	for(i=0;i<lenth;i++){
-		printf("%d",a[i]);
-	}		
+		printf("%d ",a[i]);
+	}
 }

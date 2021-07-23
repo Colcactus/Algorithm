@@ -39,7 +39,7 @@ SOFTWARE.
 由于变量作用域的缘故，我稍微用了点指针，无指针的可以看merge_sort_no_pointer.c
 */
 #include<stdio.h>
-int merge_sort(int left,int right,int *p){
+void merge_sort(int left,int right,int *p){
 	int i;
 	int mid=(right+left)/2;
 	if((right-left)<=1){
@@ -51,18 +51,15 @@ int merge_sort(int left,int right,int *p){
 	left_p=left;
 	right_p=mid;
 	for(i=0;i<(right-left);i++){
-		if((left_p==mid)&&(right_p==right)){
-			break;	
-		}
 		if(left_p==mid){
 			b[i]=*(p+right_p);
-			right_p++;	
+			right_p++;
 			continue;
 		}
 		if(right_p==right){
 			b[i]=*(p+left_p);
 			left_p++;
-			continue;	
+			continue;
 		}
 		if(*(left_p+p)>*(right_p+p)){
 			b[i]=*(p+left_p);
@@ -90,5 +87,5 @@ void main(){
 	merge_sort(0,lenth,&a[0]);
 	for(i=0;i<lenth;i++){
 		printf("%d ",a[i]);
-	}		
+	}
 }
