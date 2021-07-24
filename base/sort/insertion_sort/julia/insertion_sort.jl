@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2021 hattoemi <a7b8i06c49@outlook.com> and Colcactus
+Copyright (c) 2021 hattori-emi <a7b8i06c49@outlook.com> and Colcactus
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,50 +21,49 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-伪代码：
-函数 冒泡排序 输入 一个数组名称为array
-    i 从 1 到 length
-        j 从 1 到 length - i 
-            如果 array[j] > array[j + 1] 
-                交换 array[j] 和 array[j + 1] 的值 
-            如果结束 
-        j循环结束 
+伪代码:
+函数 插入排序 输入 一个数组名称为array
+    i 从 2 到 length
+        当 array[j] > array[i] 时
+            交换 array[j + 1] 和 array[j] 的值
+        循环结束 
     i循环结束 
 函数结束
 
-优化思路：
-- 不使用三目运算符，因为每次操作几乎没有规律，使用三目运算符将会加大开销
-- 检测是否发生交换，若没有交换，则提前跳出外循环
+注意:
+数组中第一个值不需要进行比较，而 Julia 的数组索引从1开始，所以 i 循环中 i 的初始值为2
+对于值 j 的要求只有 j < i 且 array [j] > array[i]
+交换时 array[j + 1] = tmp 需要写在 for 循环的最后一行
 
 结果:
-> 注:@time已运行过一次
-
 ``` julia
-julia> @time bubble_sort(arr, length)
-raw:[1, 2, 4, 6, 7]
-sorted:[1, 2, 4, 6, 7]
-  0.000497 seconds (42 allocations: 1.625 KiB)
+julia> a = [1, 5, 3, 7, 11, 9]
+6-element Vector{Int64}:
+  1
+  5
+  3
+  7
+ 11
+  9
+
+julia> @time insertion_sort(a)
+raw:[1, 5, 3, 7, 11, 9]
+sorted:[1, 3, 5, 7, 9, 11]
+  0.004453 seconds (46 allocations: 1.812 KiB)
 ```
- 
 """
 
-function bubble_sort(array::AbstractArray)
+function insertion_sort(array::AbstractArray)
     println("raw:$array")
-    for i = 1:length(array)
-    flag = false
+    for i = 2:length(array)
+        tmp = array[i]
+        j = i - 1
 
-        for j = 1:(length(array) - i)
-            if array[j] > array[j+1]
-                temp = array[j]
-                array[j] = array[j+1]
-                array[j + 1] = temp
-            end
+        while array[j] > array[i]
+            array[j + 1] = array[j]
+            j -= 1
         end
-
-    if flag != flag
-        break
-    end
-
+        array[j + 1] = tmp
     end
 
     println("sorted:$array")

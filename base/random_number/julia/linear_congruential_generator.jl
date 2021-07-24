@@ -31,7 +31,7 @@ $$
 其中A、B和M是常数，因此在下面的代码中A、B和M是可以取任意其它值的
 输出如下:
 
-```
+``` julia
 julia> linear_congruential_generator(2)
 8
 6
