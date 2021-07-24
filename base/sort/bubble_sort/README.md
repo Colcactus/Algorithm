@@ -37,7 +37,7 @@
 ## 代码实现  
 ---
 [C语言（从大到小）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/c/bubble_sort.c)  
-[C++（从大到小）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/cpp/bubble_sort.cpp)
+[C++（从大到小）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/cpp/bubble_sort.cpp)  
 [Julia（从小到大）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/julia/bubble_sort.jl)  
 [Python（从大到小）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/python/bubble_sort.py)  
   
