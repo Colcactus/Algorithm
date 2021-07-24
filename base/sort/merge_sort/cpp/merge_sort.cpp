@@ -67,7 +67,7 @@ void merge_sort(int left,int right,int *p){
 			left_p++;
 			continue;
 		}
-		if(*(left_p+p)<=*(right_p+p)){
+		else{
 			b[i]=*(p+right_p);
 			right_p++;
 			continue;

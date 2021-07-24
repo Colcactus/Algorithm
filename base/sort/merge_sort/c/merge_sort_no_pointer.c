@@ -70,7 +70,7 @@ void merge_sort(int left,int right){
 			left_p++;
 			continue;
 		}
-		if(a[left_p]<=a[right_p]){
+		else{
 			b[i]=a[right_p];
 			right_p++;
 			continue;

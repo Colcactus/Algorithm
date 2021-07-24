@@ -55,7 +55,7 @@ def merge_sort(left,right):
             b.append(a[left_p])
             left_p+=1
             continue
-        if(a[left_p]<=a[right_p]):
+        else:
             b.append(a[right_p])
             right_p+=1
             continue
