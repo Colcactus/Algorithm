@@ -52,4 +52,4 @@
 [C++（从大到小）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/cpp/bubble_sort.cpp)  
 [Julia（从小到大）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/julia/bubble_sort.jl)  
 [Python（从大到小）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/python/bubble_sort.py)  
-  
+*Anslate <1959719289@qq.com>*
