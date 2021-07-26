@@ -4,19 +4,24 @@
 
 ## 列表
 
-- [随机数算法 (算法导论)](https://github.com/Colcactus/Algorithm/tree/main/base/random_number)
-- [秦九韶算法/霍纳规则 (算法导论)](https://github.com/Colcactus/Algorithm/tree/main/base/horner_scheme)
+- 数值算法
+    - [随机数算法](https://github.com/Colcactus/Algorithm/tree/main/base/random_number)
+    - [秦九韶算法/霍纳规则](https://github.com/Colcactus/Algorithm/tree/main/base/horner_scheme)
+    - 素数运算
+        - 寻找因子
+        - 寻找素数
+        - 素性测试
 - 排序
     - [冒泡排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/bubble_sort)
     - [选择排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/selection_sort)
     - [插入排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/insertion_sort)
     - [归并排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/merge_sort)
-    - 快速排序 (算法导论)
-    - 堆排序 (算法导论)
+    - 快速排序
+    - 堆排序
     - 希尔排序
-    - 计数排序 (算法导论)
-    - 桶排序 (算法导论)
-    - 基数排序 (算法导论)
+    - 计数排序
+    - 桶排序
+    - 基数排序
 - 索引
     - 顺序查找
     - 二分查找
@@ -25,8 +30,8 @@
     - 哈希查找
     - 二叉树查找
     - 2-3树
-    - 红黑树 (算法导论)
-    - B+树 (算法基础)
+    - 红黑树
+    - B+树
 - 数据结构
     - 链表
         - 单链表
@@ -38,13 +43,13 @@
             - 中间插入
             - 删除
         - 双向链表
-        - 复制链表 (算法基础)
+        - 复制链表
         - 循环链表
             - 标记单元格
             - 散列表
             - 链表回溯
             - 反转链表
-            - 弗洛伊德循环查找算法/龟兔赛跑算法 (算法基础)
+            - 弗洛伊德循环查找算法/龟兔赛跑算法
     - 数组
         - 一维数组
             - 最大值
@@ -107,11 +112,10 @@
                 - 红黑树
             - 决策树
                 - 极小化极大算法
-
 - 图算法
     - 深度优先
     - 广度优先
-    - 拓扑排序 (算法导论)
+    - 拓扑排序
     - 连通性测试
     - 最小生成树
         - Kruskal算法
