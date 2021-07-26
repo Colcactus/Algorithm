@@ -9,9 +9,7 @@
 
 如名字那样，它是线性的，利用余数产生伪随机数，它的公式如下:
 
-$$
-X_{n+1} = (A \times X_n + B) Mod M
-$$
+Xₙ₊₁ = (A × Xₙ + B) Mod M
 
 可以通过公式看出，它使用上一次计算的结果来计算下一次的结果，这使得它具有一定规律，因此只要愿意，可以通过结果反推出算法
 
@@ -38,4 +36,8 @@ $$
 
 结果例如：`101`(二进制)，即十进制的`5`,若结果大于`5`(如二进制的`111`，即十进制的`8`)，则放弃结果并重来
 
-*hattori-emi <a7b8i06c49@outlook.com>*
+---
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。
+
+作品所有权归属于：hattori-emi <a7b8i06c49@outlook.com> 与 Colcactus

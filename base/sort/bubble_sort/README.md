@@ -51,5 +51,10 @@
 [C语言（从大到小）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/c/bubble_sort.c)  
 [C++（从大到小）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/cpp/bubble_sort.cpp)  
 [Julia（从小到大）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/julia/bubble_sort.jl)  
-[Python（从大到小）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/python/bubble_sort.py)  
-*Anslate <1959719289@qq.com>*
+[Python（从大到小）](https://github.com/Colcactus/Algorithm/blob/main/base/sort/bubble_sort/python/bubble_sort.py)
+
+---
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。
+
+作品所有权归属于：Anslate <1959719289@qq.com> 与 Colcactus

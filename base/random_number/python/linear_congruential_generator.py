@@ -22,9 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 这是一种简单且常见的伪随机数生成算法
-LaTeX公式如下
+公式如下
 
-X_{n+1} = (A \times X_n + B) Mod M
+Xₙ₊₁ = (A × Xₙ + B) Mod M
 
 其中A、B和M是常数，因此在下面的代码中A、B和M是可以取任意其它值的，但最优选是A = 25214903917、B = 11、C = 2^48
 原算法输出如下:(A = 7, B = 5, M = 11)
