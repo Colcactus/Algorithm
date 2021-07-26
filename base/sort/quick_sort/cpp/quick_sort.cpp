@@ -21,57 +21,61 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-æ•°æ®ä¸è¶…è¿‡intèŒƒå›´
+ÊäÈëÑùÊ½£º
+Àı£º
+5
+1 3 2 5 4
+¹²Á½ĞĞ
+µÚÒ»ĞĞn±íÊ¾µÚ¶şĞĞµÄÊı¾İÊıÁ¿
+µÚ¶şĞĞÊı¾İÊÇ´ıÅÅĞòÊı×é£¬¹²n¸ö£¬Êı¾İÖ®¼ä¼Ó¿Õ¸ñ
+Êä³öÑùÊ½£º
+Àı£º
+5 4 3 2 1
+¹²Ò»ĞĞ
+±íÊ¾ÅÅĞòÍê±ÏµÄÊı×é
 
-è¿™æ˜¯æ— æŒ‡é’ˆç‰ˆï¼ŒåŸç‰ˆå¯ä»¥çœ‹merge_sort.c
+Êı¾İ²»³¬¹ıint·¶Î§
+
+ÓÉÓÚ±äÁ¿×÷ÓÃÓòµÄÔµ¹Ê£¬ÎÒÉÔÎ¢ÓÃÁËµãÖ¸Õë£¬ÎŞÖ¸ÕëµÄ¿ÉÒÔ¿´quick_sort_no_pointer.cpp
 */
-#include<stdio.h>
-int lenth=5;
-//æ•°ç»„é•¿åº¦
-int a[5]={1,3,2,5,4};
-//å¾…æ’åºæ•°ç»„
-void merge_sort(int left,int right){
-	int i;
-	int mid=(right+left)/2;
-	if((right-left)<=1){
-		return;
-	}
-	merge_sort(left,mid);
-	merge_sort(mid,right);
-	int b[right-left],left_p,right_p;
-	left_p=left;
-	right_p=mid;
-	for(i=0;i<(right-left);i++){
-		if(left_p==mid){
-			b[i]=a[right_p];
-			right_p++;
-			continue;
-		}
-		if(right_p==right){
-			b[i]=a[left_p];
-			left_p++;
-			continue;
-		}
-		if(a[left_p]>a[right_p]){
-			b[i]=a[left_p];
-			left_p++;
-			continue;
-		}
-		else{
-			b[i]=a[right_p];
-			right_p++;
-			continue;
-		}
-	}
-	for(i=0;i<(right-left);i++){
-		a[left+i]=b[i];
-	}
-	return;
+#include<cstdio>
+using namespace std;
+void quicksort(int left,int right,int *p){
+    if(left>=right){
+        return;
+    }
+    int std=*(left+p);
+    int i=left;
+    int j=right;
+    while(i!=j){
+        while((*(j+p)<=std)&&(i<j)){
+            j--;
+        }
+        while((*(i+p)>=std)&&(i<j)){
+            i++;
+        }
+        if(i<j){
+            int temp=*(i+p);
+            *(i+p)=*(j+p);
+            *(j+p)=temp;
+        }
+    }
+    int temp=*(left+p);
+    *(left+p)=*(i+p);
+    *(i+p)=temp;
+    quicksort(left,i-1,p);
+    quicksort(i+1,right,p);
 }
-void main(){
-	merge_sort(0,lenth);
-	int i;
+int main(){
+    int i,lenth;
+	scanf("%d",&lenth);
+	int a[lenth];
 	for(i=0;i<lenth;i++){
-		printf("%d ",a[i]);
+		scanf("%d",&a[i]);
 	}
+    quicksort(0,lenth-1,&a[0]);
+    for(i=0;i<lenth;i++){
+        printf("%d ",a[i]);
+    }
+    return 0;
 }

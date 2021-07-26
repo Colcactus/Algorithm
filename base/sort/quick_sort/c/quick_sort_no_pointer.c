@@ -21,57 +21,43 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-æ•°æ®ä¸è¶…è¿‡intèŒƒå›´
+Êı¾İ²»³¬¹ıint·¶Î§
 
-è¿™æ˜¯æ— æŒ‡é’ˆç‰ˆï¼ŒåŸç‰ˆå¯ä»¥çœ‹merge_sort.c
+ÕâÊÇÎŞÖ¸Õë°æ£¬Ô­°æ¿ÉÒÔ¿´quick_sort.c
 */
 #include<stdio.h>
 int lenth=5;
-//æ•°ç»„é•¿åº¦
-int a[5]={1,3,2,5,4};
-//å¾…æ’åºæ•°ç»„
-void merge_sort(int left,int right){
-	int i;
-	int mid=(right+left)/2;
-	if((right-left)<=1){
-		return;
-	}
-	merge_sort(left,mid);
-	merge_sort(mid,right);
-	int b[right-left],left_p,right_p;
-	left_p=left;
-	right_p=mid;
-	for(i=0;i<(right-left);i++){
-		if(left_p==mid){
-			b[i]=a[right_p];
-			right_p++;
-			continue;
-		}
-		if(right_p==right){
-			b[i]=a[left_p];
-			left_p++;
-			continue;
-		}
-		if(a[left_p]>a[right_p]){
-			b[i]=a[left_p];
-			left_p++;
-			continue;
-		}
-		else{
-			b[i]=a[right_p];
-			right_p++;
-			continue;
-		}
-	}
-	for(i=0;i<(right-left);i++){
-		a[left+i]=b[i];
-	}
-	return;
+int a[5]={1,2,3,4,5};
+void quicksort(int left,int right){
+    if(left>=right){
+        return;
+    }
+    int std=a[left];
+    int i=left;
+    int j=right;
+    while(i!=j){
+        while((a[j]<=std)&&(i<j)){
+            j--;
+        }
+        while((a[i]>=std)&&(i<j)){
+            i++;
+        }
+        if(i<j){
+            int temp=a[i];
+            a[i]=a[j];
+            a[j]=temp;
+        }
+    }
+    int temp=a[left];
+    a[left]=a[i];
+    a[i]=temp;
+    quicksort(left,i-1);
+    quicksort(i+1,right);
 }
 void main(){
-	merge_sort(0,lenth);
-	int i;
-	for(i=0;i<lenth;i++){
-		printf("%d ",a[i]);
-	}
+    quicksort(0,4);
+    int i;
+    for(i=0;i<lenth;i++){
+        printf("%d ",a[i]);
+    }
 }
