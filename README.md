@@ -5,7 +5,7 @@
 ## 列表
 
 - [随机数算法 (算法导论)](https://github.com/Colcactus/Algorithm/tree/main/base/random_number)
-- [秦九韶算法/霍纳规则 (算法导论)](C:\Users\Admin\Documents\GitHub\Algorithm\base\horner_scheme)
+- [秦九韶算法/霍纳规则 (算法导论)](https://github.com/Colcactus/Algorithm/tree/main/base/horner_scheme)
 - 排序
     - [冒泡排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/bubble_sort)
     - [选择排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/selection_sort)
