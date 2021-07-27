@@ -20,7 +20,7 @@
     - 堆排序
     - 希尔排序
     - 计数排序
-    - 桶排序
+    - [桶排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/bucket_sort)
     - 基数排序
 - 索引
     - 顺序查找
