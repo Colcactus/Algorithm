@@ -38,6 +38,8 @@ Xₙ₊₁ = (A × Xₙ + B) Mod M
 
 结果例如：`101`(二进制)，即十进制的`5`,若结果大于`5`(如二进制的`111`，即十进制的`8`)，则放弃结果并重来
 
+**目前已查明c以及c++受到计算机物理限制，暂未实现统一*
+
 ---
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。

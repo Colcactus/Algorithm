@@ -16,7 +16,7 @@
     - [选择排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/selection_sort)
     - [插入排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/insertion_sort)
     - [归并排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/merge_sort)
-    - 快速排序
+    - [快速排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/quick_sort)
     - 堆排序
     - 希尔排序
     - 计数排序
