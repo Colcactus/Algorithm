@@ -36,7 +36,8 @@ SOFTWARE.
 
 数据不超过int范围
 */
-#include<stdio.h>
+#include<cstdio>
+using namespace std;
 int min(int a[],int lenth){
     int i,min;
     min=0x7fffffff;
@@ -57,7 +58,7 @@ int max(int a[],int lenth){
     }
     return max;
 }
-void main(){
+int main(){
     int lenth,i,min0,max0;
 	scanf("%d",&lenth);
 	int a[lenth];
@@ -80,4 +81,5 @@ void main(){
             b[i]--;
         }
 	}
+	return 0;
 }

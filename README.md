@@ -19,7 +19,7 @@
     - [快速排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/quick_sort)
     - 堆排序
     - 希尔排序
-    - 计数排序
+    - [计数排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/counting_sort)
     - [桶排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/bucket_sort)
     - 基数排序
 - 索引
