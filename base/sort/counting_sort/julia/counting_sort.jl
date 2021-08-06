@@ -45,22 +45,23 @@ SOFTWARE.
 function CountingSort!(array::Vector{T})where T
     println("raw:$array")
 
+    # 获取最大值和最小值
     max = maximum(array)
     min = minimum(array)
-    r = length(array)
+
+    # 从 1 开始的范围，考虑了最小值小于 0 的情况
     range = max - min + 1
-    output = Vector{T}(undef, r)
     
     # 初始化计数器
     count = Vector{T}(undef, range)
     for i = 1:range
         count[i]=0
     end
-    println(count)
 
-    # 从 min 到 max 的每一个数都作为一个桶，记录 array 中每个元素出现的次数
     """
-    为什么是count[array[i] - min + 1] += 1
+    从 min 到 max 的每一个数都作为一个桶，记录 array 中每个元素出现的次数
+
+    为什么是count[array[i] - min + 1] += 1 ？
 
     首先 min 是整个数组的头部到“0”的距离
     array 中的第任意一个元素（无论正负）减去 min 都是从“0”开始记起这个数应该在的位置
@@ -81,30 +82,33 @@ function CountingSort!(array::Vector{T})where T
     接下来，因为 count 被定义为“桶”，它现在里面全是“0”，我们的目的是记录 array 中每个元素出现的次数
     所以 +1
     """
-    for i = 1:r
+    for i = 1:length(array)
         count[array[i] - min + 1] += 1
-        println(count)
     end
 
-    # 用 count 记录发生的次数
-    for i = 2:length(count)
-        count[i] += count[i - 1]
-        println(count)
+    """
+    将值拷贝到数组
+
+    现在我们有原来的数组 array 和数组中元素出现的频率 count
+    那么现在我们就可以通过这两个数组得出一个排序后的数组 output
+
+    过程很简单
+
+    首先开辟一个长度等于 array 长度的数组 output
+    接下来遍历频次数组 count
+    在遍历 count 的时候根据 count[i] 的值向 output 中加入 array 的值
+    """
+    output = Vector{T}(undef, length(array))
+    index = 1
+    # 遍历 count
+    for i = 1:length(count)
+        while count[i] > 0
+            # + min - 1 的目的是还原数值
+            output[index] = i + min - 1
+            index += 1
+            count[i] -= 1
+        end
     end
 
-    # 通过桶排序的思想将数值分配到每个“桶”中，并放到到 output 中
-    for i = 1:r
-        index = array[i] - min + 1
-        output[count[index]] = array[i]
-        count[index] -= 1
-        println(index)
-        println(output)
-        println(count)
-    end
-
-    # 将 output 的内容传到 array 中
-    for i = 1:r
-        array[i]=output[i]
-    end
-  
+    println("sorted:$output")
 end
