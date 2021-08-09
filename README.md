@@ -135,14 +135,42 @@
         - 压入与重标记算法
         - 重标记与前移算法
 - 并行计算模型(比较网络)
+    - 比较网络
+    - 0-1原理
+    - 双调排序网络
+    - 合并网络
+    - 排序网络
 - 矩阵操作
+    - Strassen 算法
+    - 求解线性方程组
+    - 矩阵求逆
+    - 最小二乘逼近
 - 线性规划
+    - 单纯形算法
+    - 对偶性
+    - 初始基本可行解
 - 多项式与快速傅立叶变换
+    - DFT 与 FFT
 - 数论相关
+    - 最大公约数
+    - 模运算
+    - 求解模线性方程
+    - 中国余数定理
+    - 非对称加密
 - 字符串匹配
+    - 简单字符串匹配算法
+    - Rabin-Karp 算法
+    - 利用有限自动机
+    - Knuth-Morris-Prattt 算法
 - 计算几何学
-- NP完全性
+    - 寻找凸包
+    - 寻找最近点树
 - 近似算法
+    - 顶点覆盖问题
+    - 旅行商问题
+    - 集合覆盖问题
+    - 随机化和线性规划
+    - 子集和问题
 
 ## 注意事项
 - 解决方案使用CC-NC-ND 4.0([English](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.en))([简体中文](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.zh))协议，代码使用[MIT](https://github.com/Colcactus/Algorithm/blob/main/LICENSE)协议
