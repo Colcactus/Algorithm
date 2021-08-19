@@ -41,7 +41,7 @@ SOFTWARE.
 
 ``` julia
 julia> @time bubble_sort(arr, length)
-raw:[1, 2, 4, 6, 7]
+raw:[1, 4, 2, 6, 7]
 sorted:[1, 2, 4, 6, 7]
   0.000497 seconds (42 allocations: 1.625 KiB)
 ```
@@ -55,9 +55,13 @@ function bubble_sort(array::AbstractArray)
 
         for j = 1:(length(array) - i)
             if array[j] > array[j+1]
+                """
                 temp = array[j]
                 array[j] = array[j+1]
                 array[j + 1] = temp
+                可以通过下面的代码实现上面三行代码的功能
+                """
+                array[j], array[j + 1] = array[j + 1], array[j]
             end
         end
 
