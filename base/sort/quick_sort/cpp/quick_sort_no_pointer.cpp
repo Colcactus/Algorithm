@@ -21,9 +21,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-数据不超过int范围
+鏁版嵁涓嶈秴杩噄nt鑼冨洿
 
-这是无指针版，原版可以看quick_sort.cpp
+杩欐槸鏃犳寚閽堢増锛屽師鐗堝彲浠ョ湅quick_sort.cpp
 */
 #include<cstdio>
 using namespace std;
