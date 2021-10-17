@@ -1,0 +1,3 @@
+[submodule "Huffman"]
+	path = Huffman
+	url = git@github.com:Colcactus/Huffman.git
