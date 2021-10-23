@@ -59,13 +59,14 @@ Xₙ₊₁ = (A × Xₙ + B) Mod M
 
 #include<stdio.h>
 void main(){
-	long long int A=25214903917;
-	long int B=11;
-	off64_t M=(1<<48);
-	long int X=2;
+	long A=25214903917;
+	int B=11;
+	long M=1<<48;
+	int X=2;
 	// X是随机数种子
 	int i;
 	for(i=0;i<11;i++){
-		printf("%d\n",M);
+		X = (A * X + B) % M;
+		printf("%d\n",X);
 	}
 }
