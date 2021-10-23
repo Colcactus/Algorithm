@@ -60,9 +60,9 @@ Xₙ₊₁ = (A × Xₙ + B) Mod M
 #include<cstdio>
 using namespace std;
 int main(){
-	int A=25214903917;
+	long A=25214903917;
 	int B=11;
-	int M=1 << 48;
+	long M=1L << 48;
 	int X=2;
 	// X是随机数种子
 	int i;
