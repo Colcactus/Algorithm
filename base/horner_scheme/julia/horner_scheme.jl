@@ -62,7 +62,7 @@ julia> coefficient = [3, 2, -9, -11, 1]
  -11
    1
 
-julia> horner_scheme(4, coefficient)
+julia> hornier_scheme(4, coefficient)
 14
 47
 177
@@ -71,7 +71,7 @@ julia> horner_scheme(4, coefficient)
 
 """
 
-function horner_scheme(x::Int64, coefficient::AbstractArray)
+function hornier_scheme(x::Int64, coefficient::AbstractArray)
     # 自动获取最高次项的系数
     v = coefficient[1]
     # 自动获取多项式次数
