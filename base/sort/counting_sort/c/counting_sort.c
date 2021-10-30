@@ -21,20 +21,20 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-ÊäÈëÑùÊ½£º
-Àý£º
+è¾“å…¥æ ·å¼ï¼š
+ä¾‹ï¼š
 5
 1 3 2 5 4
-¹²Á½ÐÐ
-µÚÒ»ÐÐn±íÊ¾µÚ¶þÐÐµÄÊý¾ÝÊýÁ¿
-µÚ¶þÐÐÊý¾ÝÊÇ´ýÅÅÐòÊý×é£¬¹²n¸ö£¬Êý¾ÝÖ®¼ä¼Ó¿Õ¸ñ
-Êä³öÑùÊ½£º
-Àý£º
+å…±ä¸¤è¡Œ
+ç¬¬ä¸€è¡Œnè¡¨ç¤ºç¬¬äºŒè¡Œçš„æ•°æ®æ•°é‡
+ç¬¬äºŒè¡Œæ•°æ®æ˜¯å¾…æŽ’åºæ•°ç»„ï¼Œå…±nä¸ªï¼Œæ•°æ®ä¹‹é—´åŠ ç©ºæ ¼
+è¾“å‡ºæ ·å¼ï¼š
+ä¾‹ï¼š
 1 2 3 4 5
-¹²Ò»ÐÐ
-±íÊ¾ÅÅÐòÍê±ÏµÄÊý×é
+å…±ä¸€è¡Œ
+è¡¨ç¤ºæŽ’åºå®Œæ¯•çš„æ•°ç»„
 
-Êý¾Ý²»³¬¹ýint·¶Î§
+æ•°æ®ä¸è¶…è¿‡intèŒƒå›´
 */
 #include<stdio.h>
 int min(int a[],int lenth){
