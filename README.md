@@ -6,7 +6,7 @@
 
 - 数值算法
     - [随机数算法](https://github.com/Colcactus/Algorithm/tree/main/base/random_number)
-    - [秦九韶算法/霍纳规则](https://github.com/Colcactus/Algorithm/tree/main/base/horner_scheme)
+    - [秦九韶算法/霍纳规则](https://github.com/Colcactus/Algorithm/tree/main/base/hornier_scheme)
     - 素数运算
         - 寻找因子
         - 寻找素数
@@ -175,10 +175,9 @@
 ## 注意事项
 - 解决方案使用CC-NC-ND 4.0([English](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.en))([简体中文](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.zh))协议，代码使用[MIT](https://github.com/Colcactus/Algorithm/blob/main/LICENSE)协议
 - 任何侵权行为皆依照协议中的法律性文本处理
-- 在平台上发布的作品皆通过平台协议 + CC-ND-NC 4.0协议执行，并通过平台官方维权手段维权，若内容已在多平台发布，那么将会使用所有已发布平台的维权手段维权
+- 在平台上发布的作品皆通过平台协议 + CC-ND-NC 4.0协议执行，若发生条例冲突，则按照“平台所在国家相关法律” > “CC-ND-NC 4.0协议” > “发布平台协议”的优先级处理，并通过平台官方维权手段维权，若内容已在多平台发布，那么将会使用所有已发布平台的维权手段维权
 
 ## 发布平台
 - [官网](http://Colcactus.ml)
 - [BiliBili](https://space.bilibili.com/473292188)
 - 知乎
-- CSDN
