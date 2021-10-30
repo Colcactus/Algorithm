@@ -21,6 +21,6 @@
 作品所有权归属于：
 Anslate <1959719289@qq.com>
 
-hattori-emi <a7b8i06c49@outlook.com>
+mieotoha <a7b8i06c49@gmail.com>
 
 Colcactus

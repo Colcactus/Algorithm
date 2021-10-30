@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2021 hattori-emi <a7b8i06c49@outlook.com> and Colcactus
+Copyright (c) 2021 mieotoha <a7b8i06c49@gmail.com> and Colcactus
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

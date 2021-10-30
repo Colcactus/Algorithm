@@ -1,5 +1,3 @@
-#include <iostream>
-
 /*
 MIT License
 
@@ -59,20 +57,27 @@ v₁ = v₀x + aₙ₋₁， v₂ = v₁x + aₙ₋₂, v₃ = v₂x + aₙ₋�
 709
 
 */
+public class hornier_scheme {
+    public static void main(String[] args) {
+        int x = 4;
+        int coefficient[] = {3, 2, -9, -11, 1};
+        hornier_scheme(x, coefficient);
+    }
 
-int main()
-{
-    int x = 4;
-    int coefficient[] = {3, 2, -9, -11, 1};
-    int v = coefficient[0];
-    int i = sizeof(coefficient) / sizeof(int);
-    int j = 1;
-    while (i >= 1)
-    {
-        int a = coefficient[j];
-        printf("%d\n", v);
-        v = v * x + a;
-        i -= 1;
-        j += 1;
+    public static void hornier_scheme(int x, int coefficient[]) {
+        // 自动获取最高次项的系数
+        int v = coefficient[0];
+        // 自动获取多项式次数
+        int i = coefficient.length;
+        // 跳过第一个系数的计算，避免得到错误答案
+        int j = 1;
+        // 避免数组索引越界
+        while (i >= 1) {
+            int aᵢ = coefficient[j];
+            System.out.println(v);
+            v = v * x + aᵢ;
+            i -= 1;
+            j += 1;
+        }
     }
 }
