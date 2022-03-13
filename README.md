@@ -2,6 +2,15 @@
 由Colcactus编撰及整理的野生算法百科，不定期更新  
 欢迎来[我们的B站个人空间](https://space.bilibili.com/473292188)支持我们哟！  
 
+## 语言支持
+
+这是目标支持语言的列表
+
+- C/C++
+- Java
+- Julia
+- Python
+
 ## 列表
 
 - 数值算法
@@ -32,40 +41,6 @@
     - 2-3树
     - 红黑树
     - B+树
-- 数据结构
-    - 链表
-        - 单链表
-            - 遍历
-            - 查找
-            - 哨兵
-            - 开头添加
-            - 结尾添加
-            - 中间插入
-            - 删除
-        - 双向链表
-        - 复制链表
-        - 循环链表
-            - 标记单元格
-            - 散列表
-            - 链表回溯
-            - 反转链表
-            - 弗洛伊德循环查找算法/龟兔赛跑算法
-    - 数组
-        - 一维数组
-            - 最大值
-            - 最小值
-            - 平均值
-            - 插入元素
-            - 移除元素
-        - 二维数组
-        - 多维数组
-        - 三角形数组
-        - 稀疏数组
-            - 找到行/列
-            - 获取值
-            - 设置值
-            - 删除值
-        - 矩阵
     - 栈
         - 链表实现
         - 数组实现
@@ -74,9 +49,6 @@
             - 逆置数组
             - 火车重排问题
             - 汉诺塔
-    - 队列
-        - 链表实现
-        - 数组实现
     - 散列表/哈希表/字典
         - 开放寻址法
             - 线性探测
@@ -112,6 +84,8 @@
                 - 红黑树
             - 决策树
                 - 极小化极大算法
+- 压缩算法
+    - [霍夫曼编码](https://github.com/Colcactus/Algorithm/tree/main/base/compression_algorithm/huffman)
 - 图算法
     - 深度优先
     - 广度优先
@@ -173,11 +147,8 @@
     - 子集和问题
 
 ## 注意事项
-- 解决方案使用CC-NC-ND 4.0([English](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.en))([简体中文](https://github.com/Colcactus/Algorithm/blob/main/LICENSE.ARTICLE.zh))协议，代码使用[MIT](https://github.com/Colcactus/Algorithm/blob/main/LICENSE)协议
-- 任何侵权行为皆依照协议中的法律性文本处理
-- 在平台上发布的作品皆通过平台协议 + CC-ND-NC 4.0协议执行，若发生条例冲突，则按照“平台所在国家相关法律” > “CC-ND-NC 4.0协议” > “发布平台协议”的优先级处理，并通过平台官方维权手段维权，若内容已在多平台发布，那么将会使用所有已发布平台的维权手段维权
+- 解决方案使用CC-NC-ND 4.0协议，代码使用MIT协议
 
 ## 发布平台
-- [官网](http://Colcactus.ml)
+- 官网
 - [BiliBili](https://space.bilibili.com/473292188)
-- 知乎
