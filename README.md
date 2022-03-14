@@ -41,7 +41,7 @@
     - 2-3树
     - 红黑树
     - B+树
-- 栈
+- [栈](https://github.com/Colcactus/Algorithm/tree/main/base/stack)
     - 相关算法
         - 逆置数组
         - 火车重排问题
