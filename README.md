@@ -45,7 +45,7 @@
     - 相关算法
         - 逆置数组
         - 火车重排问题
-        - 汉诺塔
+        - [汉诺塔](https://github.com/Colcactus/Algorithm/tree/main/base/stack/Hanoi)
 - 散列表/哈希表/字典
     - 开放寻址法
         - 线性探测
