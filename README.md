@@ -14,26 +14,26 @@
 ## 列表
 
 - 数值算法
-    - [随机数算法](https://github.com/Colcactus/Algorithm/tree/main/base/random_number)
-    - [秦九韶算法/霍纳规则](https://github.com/Colcactus/Algorithm/tree/main/base/hornier_scheme)
+    - [随机数算法](/base/random_number)
+    - [秦九韶算法/霍纳规则](/base/hornier_scheme)
     - 素数运算
         - 寻找因子
         - 寻找素数
         - 素性测试
 - 排序
-    - [冒泡排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/bubble_sort)
-    - [选择排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/selection_sort)
-    - [插入排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/insertion_sort)
-    - [归并排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/merge_sort)
-    - [快速排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/quick_sort)
+    - [冒泡排序](/base/sort/bubble_sort)
+    - [选择排序](/base/sort/selection_sort)
+    - [插入排序](/base/sort/insertion_sort)
+    - [归并排序](/base/sort/merge_sort)
+    - [快速排序](/base/sort/quick_sort)
     - 堆排序
     - 希尔排序
-    - [计数排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/counting_sort)
-    - [桶排序](https://github.com/Colcactus/Algorithm/tree/main/base/sort/bucket_sort)
+    - [计数排序](/base/sort/counting_sort)
+    - [桶排序](/base/sort/bucket_sort)
     - 基数排序
 - 索引
-    - [顺序查找](https://github.com/Colcactus/Algorithm/tree/main/base/index/linear_search)
-    - [二分查找](https://github.com/Colcactus/Algorithm/tree/main/base/index/binary_search)
+    - [顺序查找](/base/index/linear_search)
+    - [二分查找](/base/index/binary_search)
     - 插值查找
     - 斐波那契查找
     - 哈希查找
@@ -41,11 +41,11 @@
     - 2-3树
     - 红黑树
     - B+树
-- [栈](https://github.com/Colcactus/Algorithm/tree/main/base/stack)
+- [栈](/base/stack)
     - 相关算法
         - 逆置数组
         - 火车重排问题
-        - [汉诺塔](https://github.com/Colcactus/Algorithm/tree/main/base/stack/Hanoi)
+        - [汉诺塔](/base/stack/Hanoi)
 - 散列表/哈希表/字典
     - 开放寻址法
         - 线性探测
@@ -82,7 +82,7 @@
         - 决策树
             - 极小化极大算法
 - 压缩算法
-    - [霍夫曼编码](https://github.com/Colcactus/Algorithm/tree/main/base/compression_algorithm/huffman)
+    - [霍夫曼编码](/base/compression_algorithm/huffman)
 - 加密算法
     - [凯撒编码](/base/cipher/julia/caeser.jl)
 - 图算法
