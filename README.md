@@ -83,6 +83,8 @@
             - 极小化极大算法
 - 压缩算法
     - [霍夫曼编码](https://github.com/Colcactus/Algorithm/tree/main/base/compression_algorithm/huffman)
+- 加密算法
+    - [凯撒编码](/Algorithm/base/cipher/julia/caeser.jl)
 - 图算法
     - 深度优先
     - 广度优先
